@@ -1,0 +1,5 @@
+2016-12-16 22:19:16,812 - µÇÂ½²âÊÔ - INFO - input data:name:liwanlei,pwd:liwanlei,suc:1,assert:ĞŞ¸ÄÃÜÂë
+2016-12-16 22:19:22,113 - µÇÂ½²âÊÔ - ERROR - None != 'ĞŞ¸ÄÃÜÂë'
+2016-12-16 22:20:48,675 - µÇÂ½²âÊÔ - INFO - input data:name:liwanlei,pwd:liwanlei,suc:1,assert:ĞŞ¸ÄÃÜÂë
+2016-12-16 22:20:54,810 - µÇÂ½²âÊÔ - ERROR - None != 'ĞŞ¸ÄÃÜÂë'
+2016-12-16 22:22:00,032 - ÕÒ»ØÃÜÂë²âÊÔ - ERROR - 'zhaohui_data_1'
