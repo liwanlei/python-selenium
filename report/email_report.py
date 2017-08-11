@@ -51,5 +51,4 @@ def create_report_sendemali(now):
     print('send is ok!!!')
 if __name__=="__main__":
     now=create_report()
-    print(now)
     create_report_sendemali(now)
