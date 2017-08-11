@@ -1,6 +1,5 @@
 import yaml
 from selenium import webdriver
-
 class Login_tes:#登录模块封装
     def __init__(self,driver):#
         self.driber=driver

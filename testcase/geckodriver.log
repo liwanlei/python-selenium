@@ -1,0 +1,108 @@
+1502459005430	geckodriver	INFO	Listening on 127.0.0.1:60231
+1502459007525	mozprofile::profile	INFO	Using profile path C:\Users\ADMINI~1\AppData\Local\Temp\rust_mozprofile.NyMoOI8yoRtl
+1502459007529	geckodriver::marionette	INFO	Starting browser D:\Program Files (x86)\yy\Mozilla Firefox\firefox.exe with args []
+1502459007578	geckodriver::marionette	INFO	Connecting to Marionette on localhost:60242
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 17040] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1502459432856	geckodriver	INFO	Listening on 127.0.0.1:63559
+1502459434974	mozprofile::profile	INFO	Using profile path C:\Users\ADMINI~1\AppData\Local\Temp\rust_mozprofile.yJvDF3n4a8fw
+1502459434981	geckodriver::marionette	INFO	Starting browser D:\Program Files (x86)\yy\Mozilla Firefox\firefox.exe with args []
+1502459435010	geckodriver::marionette	INFO	Connecting to Marionette on localhost:63566
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 18608] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Child 18356] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 18356] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1502459763316	geckodriver	INFO	Listening on 127.0.0.1:63796
+1502459765395	mozprofile::profile	INFO	Using profile path C:\Users\ADMINI~1\AppData\Local\Temp\rust_mozprofile.73QNyx1ahefe
+1502459765400	geckodriver::marionette	INFO	Starting browser D:\Program Files (x86)\yy\Mozilla Firefox\firefox.exe with args []
+1502459765473	geckodriver::marionette	INFO	Connecting to Marionette on localhost:63802
+1502459828313	geckodriver	INFO	Listening on 127.0.0.1:63893
+1502459830427	mozprofile::profile	INFO	Using profile path C:\Users\ADMINI~1\AppData\Local\Temp\rust_mozprofile.7Qlqza3nG5Dn
+1502459830431	geckodriver::marionette	INFO	Starting browser D:\Program Files (x86)\yy\Mozilla Firefox\firefox.exe with args []
+1502459830450	geckodriver::marionette	INFO	Connecting to Marionette on localhost:63899
+1502459832970	geckodriver	INFO	Listening on 127.0.0.1:63906
+1502459835015	mozprofile::profile	INFO	Using profile path C:\Users\ADMINI~1\AppData\Local\Temp\rust_mozprofile.M21EkIJfHC9H
+1502459835018	geckodriver::marionette	INFO	Starting browser D:\Program Files (x86)\yy\Mozilla Firefox\firefox.exe with args []
+1502459835037	geckodriver::marionette	INFO	Connecting to Marionette on localhost:63912
+1502459836615	geckodriver	INFO	Listening on 127.0.0.1:63918
+1502459838685	mozprofile::profile	INFO	Using profile path C:\Users\ADMINI~1\AppData\Local\Temp\rust_mozprofile.U7SIZIBYVuVn
+1502459838688	geckodriver::marionette	INFO	Starting browser D:\Program Files (x86)\yy\Mozilla Firefox\firefox.exe with args []
+1502459838716	geckodriver::marionette	INFO	Connecting to Marionette on localhost:63924
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 20372] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Child 20044] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 20044] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Child 10696] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1502459873545	geckodriver	INFO	Listening on 127.0.0.1:63996
+1502459875589	mozprofile::profile	INFO	Using profile path C:\Users\ADMINI~1\AppData\Local\Temp\rust_mozprofile.z4KsDRxI0I7C
+1502459875592	geckodriver::marionette	INFO	Starting browser D:\Program Files (x86)\yy\Mozilla Firefox\firefox.exe with args []
+1502459875611	geckodriver::marionette	INFO	Connecting to Marionette on localhost:64002
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 19928] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Child 20124] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1502459897194	geckodriver	INFO	Listening on 127.0.0.1:64058
+1502459899142	mozprofile::profile	INFO	Using profile path C:\Users\ADMINI~1\AppData\Local\Temp\rust_mozprofile.WUHq6K5BS5O7
+1502459899146	geckodriver::marionette	INFO	Starting browser D:\Program Files (x86)\yy\Mozilla Firefox\firefox.exe with args []
+1502459899167	geckodriver::marionette	INFO	Connecting to Marionette on localhost:64064
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 17532] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1502459957846	geckodriver	INFO	Listening on 127.0.0.1:64156
+1502459959897	mozprofile::profile	INFO	Using profile path C:\Users\ADMINI~1\AppData\Local\Temp\rust_mozprofile.PnqOosRNairE
+1502459959900	geckodriver::marionette	INFO	Starting browser D:\Program Files (x86)\yy\Mozilla Firefox\firefox.exe with args []
+1502459959922	geckodriver::marionette	INFO	Connecting to Marionette on localhost:64164
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 18164] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Child 19500] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+JavaScript error: resource://shield-recipe-client/lib/RecipeRunner.jsm, line 153: TypeError: prefs is undefined
+[Parent 18164] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Child 19812] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 19812] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1502459967275	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+1502459986267	geckodriver	INFO	Listening on 127.0.0.1:64306
+1502459988381	mozprofile::profile	INFO	Using profile path C:\Users\ADMINI~1\AppData\Local\Temp\rust_mozprofile.DZbLXbARDVNc
+1502459988385	geckodriver::marionette	INFO	Starting browser D:\Program Files (x86)\yy\Mozilla Firefox\firefox.exe with args []
+1502459988412	geckodriver::marionette	INFO	Connecting to Marionette on localhost:64316
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 7748] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+*************************
+A coding exception was thrown in a Promise resolution callback.
+See https://developer.mozilla.org/Mozilla/JavaScript_code_modules/Promise.jsm/Promise
+
+Full message: TypeError: this.panel.openPopup is not a function
+Full stack: PopupNotifications_showPanel/<@resource://gre/modules/PopupNotifications.jsm:1026:7
+process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:922:23
+walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:806:7
+scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:742:11
+observe@resource://gre/modules/AsyncShutdown.jsm:531:9
+
+*************************
+[Parent 7748] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Child 18444] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 18444] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1502460034845	geckodriver	INFO	Listening on 127.0.0.1:64414
+1502460036892	mozprofile::profile	INFO	Using profile path C:\Users\ADMINI~1\AppData\Local\Temp\rust_mozprofile.YyAlJeqIFW62
+1502460036895	geckodriver::marionette	INFO	Starting browser D:\Program Files (x86)\yy\Mozilla Firefox\firefox.exe with args []
+1502460036919	geckodriver::marionette	INFO	Connecting to Marionette on localhost:64420
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Child 19500] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 19500] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+1502460098857	geckodriver	INFO	Listening on 127.0.0.1:64737
+1502460100905	mozprofile::profile	INFO	Using profile path C:\Users\ADMINI~1\AppData\Local\Temp\rust_mozprofile.WPCCvTrPbIKY
+1502460100910	geckodriver::marionette	INFO	Starting browser D:\Program Files (x86)\yy\Mozilla Firefox\firefox.exe with args []
+1502460100929	geckodriver::marionette	INFO	Connecting to Marionette on localhost:64743
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 21440] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Child 20792] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 20792] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Child 20892] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1502460364758	geckodriver	INFO	Listening on 127.0.0.1:64979

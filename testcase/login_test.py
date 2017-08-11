@@ -1,6 +1,6 @@
-from bl.blo import Login_tes
+from base.blo import Login_tes
 import yaml,unittest,time
-from lo import  log
+from util import  log
 from selenium import webdriver
 class Testlogin(unittest.TestCase):
     def setUp(self):

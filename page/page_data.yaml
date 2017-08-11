@@ -47,7 +47,7 @@ xiebo:
     neirong: "comment_textarea"#classname
     fenlei: "jumpMenu" #id
     fenlei1: "/html/body/div/div/div[1]/div/div[2]/form/div[4]/select/option[2]" #git xpath
-    biaoqian: "biaoqian"#id
+    biaoqian: "biaoqian" #id
     bianqian1: 'input[value=\"python\"]'
     tuijian: 'input[name=\"tuijian\"]'
     xiebo_btn: 'input[type=\"submit\"]'
