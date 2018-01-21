@@ -1,9 +1,10 @@
-import yaml
+import yaml,os
 from selenium import webdriver
+path=os.getcwd()
 class Login_tes:#登录模块封装
     def __init__(self,driver):#
         self.driber=driver
-        self.file=open(r"C:\Users\Administrator\Desktop\te_blogf\data\page_data.yaml", "r",encoding= "utf-8")
+        self.file=open(path+"\\page\\page_data.yaml", "r",encoding= "utf-8")
         self.data=yaml.load(self.file)
         self.file.close()
         self.lo_url=self.data['login'].get('url')
@@ -34,7 +35,7 @@ class Login_tes:#登录模块封装
 class Zhuce_tes:#注册模块的封装
     def __init__(self,driver):
         self.deriver=driver
-        self.file1=open(r"C:\Users\Administrator\Desktop\te_blogf\data\page_data.yaml", "r",encoding= "utf-8")
+        self.file1=open(path+"\\data\\page_data.yaml", "r",encoding= "utf-8")
         self.data=yaml.load(self.file1)
         self.file1.close()
         self.zhu_url=self.data['zhuce'].get('url')
@@ -75,7 +76,7 @@ class Zhuce_tes:#注册模块的封装
 class Zaohui_tes:
     def __init__(self,driver):
         self.driver=driver
-        self.file1=open(r"C:\Users\Administrator\Desktop\te_blogf\data\page_data.yaml", "r",encoding= "utf-8")
+        self.file1=open(path+"\\data\\page_data.yaml", "r",encoding= "utf-8")
         self.data=yaml.load(self.file1)
         self.file1.close()
         self.zhao_url=self.data['zhaohui'].get('url')
@@ -105,7 +106,7 @@ class Zaohui_tes:
 class Rest_tes:
     def __init__(self,driver):
         self.driver=driver
-        self.file1=open(r"C:\Users\Administrator\Desktop\te_blogf\data\page_data.yaml", "r",encoding= "utf-8")
+        self.file1=open(path+"\\data\\page_data.yaml", "r",encoding= "utf-8")
         self.data=yaml.load(self.file1)
         self.file1.close()
         self.rest_url=self.data['reset_pwd'].get('url')
@@ -141,7 +142,7 @@ class Rest_tes:
 class Xiugai_tes:
     def __init__(self,driver):
         self.driver=driver
-        self.file1=open(r"C:\Users\Administrator\Desktop\te_blogf\data\page_data.yaml", "r",encoding= "utf-8")
+        self.file1=open(path+"\\data\\page_data.yaml", "r",encoding= "utf-8")
         self.data=yaml.load(self.file1)
         self.file1.close()
         self.xiugai_url=self.data['xiugai'].get('url')
@@ -174,7 +175,7 @@ class Xiugai_tes:
 class Xiebo_tes:
     def __init__(self,driver):
         self.driver=driver
-        self.file1=open(r"C:\Users\Administrator\Desktop\te_blogf\data\page_data.yaml", "r",encoding= "utf-8")
+        self.file1=open(path+"\\data\\page_data.yaml", "r",encoding= "utf-8")
         self.data=yaml.load(self.file1)
         self.file1.close()
         self.xiebo_url=self.data['xiebo'].get('url')
