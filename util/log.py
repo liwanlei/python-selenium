@@ -2,10 +2,10 @@ import logging,os,time
 path=os.getcwd()
 class log_message:
 	def __init__(self,title):
-		self.day=time.strftime("%Y-%m-%d_%H_%M",time.localtime(time.time()))
+		self.day=time.strftime("%Y-%m-%d_%H",time.localtime(time.time()))
 		self.logger=logging.getLogger(title)
 		self.logger.setLevel(logging.INFO)
-		wenjian=path+'\\lo\\%s.log'%self.day
+		wenjian=path+'\\testlog\\%s.log'%self.day
 		self.logfile=logging.FileHandler(wenjian)
 		self.logfile.setLevel(logging.INFO)
 		self.control=logging.StreamHandler()

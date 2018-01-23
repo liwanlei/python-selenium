@@ -1,10 +1,9 @@
 import yaml,os
-from selenium import webdriver
 path=os.getcwd()
 class Login_tes:#登录模块封装
     def __init__(self,driver):#
         self.driber=driver
-        self.file=open(path+"\\page\\page_data.yaml", "r",encoding= "utf-8")
+        self.file=open(path+"\\data\\page_data.yaml", "r",encoding= "utf-8")
         self.data=yaml.load(self.file)
         self.file.close()
         self.lo_url=self.data['login'].get('url')
