@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 # @Author  : leizi
-from bussinses.blo import Zaohui_tes
+from bussinses.funnicgong import Zaohui_tes
 import unittest,time,os,ddt
 from util import log
 from selenium import webdriver
@@ -11,9 +11,8 @@ casedata=huoqu_test(case_path,2)
 @ddt.ddt
 class Testzhaohui(unittest.TestCase):
     def setUp(self):
-        title=u'找回密码测试'
-        self.logs=log.log_message(title)
-        self.derve=webdriver.Firefox()
+        self.logs = log.log_message()
+        self.derve=webdriver.Chrome()
         self.zhaohui_fun=Zaohui_tes(self.derve)
     @ddt.data(*casedata)
     def test_zhaohui_1(self,casedata):

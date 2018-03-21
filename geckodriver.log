@@ -1,0 +1,55 @@
+1521610270049	geckodriver	INFO	geckodriver 0.19.1
+1521610270058	geckodriver	INFO	Listening on 127.0.0.1:61323
+1521610273173	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.FOsfLajua53W"
+1521610281323	geckodriver	INFO	geckodriver 0.19.1
+1521610281333	geckodriver	INFO	Listening on 127.0.0.1:61344
+1521610284359	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.4sYG2PpaM6JB"
+1521610284409	geckodriver	INFO	geckodriver 0.19.1
+1521610284418	geckodriver	INFO	Listening on 127.0.0.1:61353
+1521610287455	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.vXCQCgd2LGZU"
+1521610287505	geckodriver	INFO	geckodriver 0.19.1
+1521610287514	geckodriver	INFO	Listening on 127.0.0.1:61362
+1521610290609	geckodriver	INFO	geckodriver 0.19.1
+1521610290619	geckodriver	INFO	Listening on 127.0.0.1:61371
+1521610293672	geckodriver	INFO	geckodriver 0.19.1
+1521610293681	geckodriver	INFO	Listening on 127.0.0.1:61380
+1521610296737	geckodriver	INFO	geckodriver 0.19.1
+1521610296746	geckodriver	INFO	Listening on 127.0.0.1:61388
+1521610299819	geckodriver	INFO	geckodriver 0.19.1
+1521610299828	geckodriver	INFO	Listening on 127.0.0.1:61398
+1521610302911	geckodriver	INFO	geckodriver 0.19.1
+1521610302920	geckodriver	INFO	Listening on 127.0.0.1:61406
+1521610305998	geckodriver	INFO	geckodriver 0.19.1
+1521610306011	geckodriver	INFO	Listening on 127.0.0.1:61414
+1521610309090	geckodriver	INFO	geckodriver 0.19.1
+1521610309100	geckodriver	INFO	Listening on 127.0.0.1:61424
+1521610312195	geckodriver	INFO	geckodriver 0.19.1
+1521610312203	geckodriver	INFO	Listening on 127.0.0.1:61433
+1521610315296	geckodriver	INFO	geckodriver 0.19.1
+1521610315306	geckodriver	INFO	Listening on 127.0.0.1:61441
+1521611062332	geckodriver	INFO	geckodriver 0.19.1
+1521611062341	geckodriver	INFO	Listening on 127.0.0.1:61575
+1521611065429	geckodriver	INFO	geckodriver 0.19.1
+1521611065439	geckodriver	INFO	Listening on 127.0.0.1:61583
+1521611068501	geckodriver	INFO	geckodriver 0.19.1
+1521611068510	geckodriver	INFO	Listening on 127.0.0.1:61591
+1521611071602	geckodriver	INFO	geckodriver 0.19.1
+1521611071611	geckodriver	INFO	Listening on 127.0.0.1:61602
+1521611074655	geckodriver	INFO	geckodriver 0.19.1
+1521611074664	geckodriver	INFO	Listening on 127.0.0.1:61610
+1521611077723	geckodriver	INFO	geckodriver 0.19.1
+1521611077732	geckodriver	INFO	Listening on 127.0.0.1:61618
+1521611080809	geckodriver	INFO	geckodriver 0.19.1
+1521611080818	geckodriver	INFO	Listening on 127.0.0.1:61627
+1521611083884	geckodriver	INFO	geckodriver 0.19.1
+1521611083894	geckodriver	INFO	Listening on 127.0.0.1:61638
+1521611086987	geckodriver	INFO	geckodriver 0.19.1
+1521611086996	geckodriver	INFO	Listening on 127.0.0.1:61649
+1521611090104	geckodriver	INFO	geckodriver 0.19.1
+1521611090113	geckodriver	INFO	Listening on 127.0.0.1:61658
+1521611093195	geckodriver	INFO	geckodriver 0.19.1
+1521611093204	geckodriver	INFO	Listening on 127.0.0.1:61666
+1521611096339	geckodriver	INFO	geckodriver 0.19.1
+1521611096348	geckodriver	INFO	Listening on 127.0.0.1:61674
+1521611099405	geckodriver	INFO	geckodriver 0.19.1
+1521611099414	geckodriver	INFO	Listening on 127.0.0.1:61682

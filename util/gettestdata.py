@@ -4,6 +4,8 @@
 @time: 2018/1/19 11:43 
 """
 import xlrd
+from util import  log
+logs=log.log_message()
 def huoqu_test(filepath,index):
     try:
         file = xlrd.open_workbook(filepath)
@@ -18,4 +20,4 @@ def huoqu_test(filepath,index):
             listdata.append(dict_canshu)
         return listdata
     except Exception as e:
-        print(e)
+        logs.error_log('获取测试用例数据失败，原因：%s'%e)

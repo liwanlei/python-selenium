@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 # @Author  : leizi
-from bussinses.blo import Zhuce_tes
+from bussinses.funnicgong import Zhuce_tes
 import unittest,time,os,ddt
 from util import log
 from selenium import webdriver
@@ -11,9 +11,8 @@ casedata=huoqu_test(case_path,1)
 @ddt.ddt
 class Testzhuce(unittest.TestCase):
     def setUp(self):
-        title=u'注册测试'
-        self.logs=log.log_message(title)
-        self.derve=webdriver.Firefox()
+        self.logs = log.log_message()
+        self.derve=webdriver.Chrome()
         self.zhuce_fun=Zhuce_tes(self.derve)
     @ddt.data(*casedata)
     def test_zhuce_1(self,casedata):
@@ -31,5 +30,3 @@ class Testzhuce(unittest.TestCase):
         self.assertEqual(self.re_data, self.assert_vale)
     def tearDown(self):
         self.derve.quit()
-if __name__=="__main__":
-    unittest.main()

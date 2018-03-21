@@ -1,4 +1,4 @@
-from bussinses.blo import Login_tes
+from bussinses.funnicgong import Login_tes
 import ddt,unittest,time,os
 from util import  log
 from selenium import webdriver
@@ -9,9 +9,8 @@ casedata=huoqu_test(case_path,3)
 @ddt.ddt
 class Testlogin(unittest.TestCase):
     def setUp(self):
-        title=u'登陆测试'
-        self.logs=log.log_message(title)
-        self.derve=webdriver.Firefox()
+        self.logs=log.log_message()
+        self.derve=webdriver.Chrome()
         self.login_fun=Login_tes(self.derve)
     @ddt.data(*casedata)
     def test_login1(self,casedata):

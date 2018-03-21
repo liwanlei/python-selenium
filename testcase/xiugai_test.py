@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 # @Author  : leizi
-from bussinses.blo import Xiugai_tes
+from bussinses.funnicgong import Xiugai_tes
 from selenium import webdriver
 import unittest,time,os,ddt
 from util import log
@@ -11,9 +11,8 @@ casedata=huoqu_test(case_path,3)
 @ddt.ddt
 class Test_xiugai(unittest.TestCase):
     def setUp(self):
-        title=u'修改密码测试'
-        self.logs=log.log_message(title)
-        self.derve=webdriver.Firefox()
+        self.logs = log.log_message()
+        self.derve=webdriver.Chrome()
         self.xiugai_fun=Xiugai_tes(self.derve)
     @ddt.data(*casedata)
     def test_xiugai_1(self,casedata):

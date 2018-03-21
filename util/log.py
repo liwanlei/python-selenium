@@ -1,25 +1,28 @@
-import logging,os,time
+import os,time,logging
 path=os.getcwd()
-class log_message:
-	def __init__(self,title):
-		self.day=time.strftime("%Y-%m-%d_%H",time.localtime(time.time()))
-		self.logger=logging.getLogger(title)
+class log_message():
+	def __init__(self):
+		title = u'注册测试'
+		day = time.strftime("%Y%m%d%H%M", time.localtime(time.time()))
+		pad = os.getcwd()
+		file_dir = pad + '\\testlog'
+		file = os.path.join(file_dir, (day + '.log'))
+		self.logger = logging.Logger(title)
 		self.logger.setLevel(logging.INFO)
-		wenjian=path+'\\testlog\\%s.log'%self.day
-		self.logfile=logging.FileHandler(wenjian)
+		self.logfile = logging.FileHandler(file)
 		self.logfile.setLevel(logging.INFO)
-		self.control=logging.StreamHandler()
+		self.control = logging.StreamHandler()
 		self.control.setLevel(logging.INFO)
-		self.formatter=logging.Formatter("%(asctime)s - %(name)s - %(levelname)s - %(message)s")
-		self.logfile.setFormatter(self.formatter)
-		self.control.setFormatter(self.formatter)
+		self.formater = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+		self.logfile.setFormatter(self.formater)
+		self.control.setFormatter(self.formater)
 		self.logger.addHandler(self.logfile)
 		self.logger.addHandler(self.control)
-	def debug_log(self,message):
+	def debugInfo(self, message):
 		self.logger.debug(message)
-	def info_log(self,message):
+	def info_log(self, message):
 		self.logger.info(message)
-	def ware_log(self,message):
-		self.logger.ware(message)
-	def error_log(self,message):
+	def ware_log(self, message):
+		self.logger.warn(message)
+	def error_log(self, message):
 		self.logger.error(message)

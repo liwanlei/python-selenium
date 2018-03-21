@@ -1,8 +1,11 @@
 import yaml,os
 path=os.getcwd()
+from util import log
 class Login_tes:#登录模块封装
     def __init__(self,driver):#
         self.driber=driver
+        title='登录模块'
+        self.logs = log.log_message(title)
         self.file=open(path+"\\data\\page_data.yaml", "r",encoding= "utf-8")
         self.data=yaml.load(self.file)
         self.file.close()
@@ -28,12 +31,14 @@ class Login_tes:#登录模块封装
             if suc=='0':
                 self.login_err=self.driber.find_element_by_xpath(self.lo_err).text
         except Exception as e:
-            print(e)
+            self.logs.error_log('用例执行失败，原因：%s'%e)
         finally:
             self.driber.quit()
 class Zhuce_tes:#注册模块的封装
     def __init__(self,driver):
         self.deriver=driver
+        title = '注册模块'
+        self.logs = log.log_message(title)
         self.file1=open(path+"\\data\\page_data.yaml", "r",encoding= "utf-8")
         self.data=yaml.load(self.file1)
         self.file1.close()
@@ -69,12 +74,14 @@ class Zhuce_tes:#注册模块的封装
                 self.zhu_e=self.deriver.find_element_by_xpath(self.zhu_err).text
                 return self.zhu_e
         except Exception as e:
-            print(e)
+            self.logs.error_log('用例执行失败，原因：%s' % e)
         finally:
             self.deriver.quit()
 class Zaohui_tes:
     def __init__(self,driver):
         self.driver=driver
+        title = '找回模块'
+        self.logs = log.log_message(title)
         self.file1=open(path+"\\data\\page_data.yaml", "r",encoding= "utf-8")
         self.data=yaml.load(self.file1)
         self.file1.close()
@@ -99,12 +106,14 @@ class Zaohui_tes:
                 self.zhao_er=self.driver.find_element_by_xpath(self.zhao_err).text
                 return self.zhao_er
         except Exception as e:
-            print(e)
+            self.logs.error_log('用例执行失败，原因：%s' % e)
         finally:
             self.driver.quit()
 class Rest_tes:
     def __init__(self,driver):
         self.driver=driver
+        title = '重置模块'
+        self.logs = log.log_message(title)
         self.file1=open(path+"\\data\\page_data.yaml", "r",encoding= "utf-8")
         self.data=yaml.load(self.file1)
         self.file1.close()
@@ -135,11 +144,13 @@ class Rest_tes:
                 self.rest_err=self.driver.find_element_by_xpath(self.reset_error).text
                 return self.rest_err
         except Exception as e:
-            print(e)
+            self.logs.error_log('用例执行失败，原因：%s' % e)
         finally:
             self.driver.quit()
 class Xiugai_tes:
     def __init__(self,driver):
+        title = '修改模块'
+        self.logs = log.log_message(title)
         self.driver=driver
         self.file1=open(path+"\\data\\page_data.yaml", "r",encoding= "utf-8")
         self.data=yaml.load(self.file1)
@@ -168,31 +179,6 @@ class Xiugai_tes:
                 self.xiugai_erro=self.driver.find_element_by_xpath(self.xiugai_error).text
                 return self.xiugai_erro
         except Exception as e:
-            print(e)
-        finally:
-            self.driver.quit()
-class Xiebo_tes:
-    def __init__(self,driver):
-        self.driver=driver
-        self.file1=open(path+"\\data\\page_data.yaml", "r",encoding= "utf-8")
-        self.data=yaml.load(self.file1)
-        self.file1.close()
-        self.xiebo_url=self.data['xiebo'].get('url')
-        self.xiebo_biaoti=self.data['xiebo'].get('biaoti')
-        self.xiebo_neirong=self.data['xiebo'].get('neirong')
-        self.xiebo_fenlei=self.data['xiebo'].get('fenlei')
-        self.xiebo_fenlei1=self.data['xiebo'].get('fenlei1')
-        self.xiebo_biaoqian=self.data['xiebo'].get('biaoqian')
-        self.xiebo_biaoqian1=self.data['xiebo'].get('biaoqian1')
-        self.xiebo_tuijian=self.data['xiebo'].get('tuijian')
-        self.xiebo_btn=self.data['xiebo'].get('xiebo_btn')
-        self.xiebo_err=self.data['xiebo'].get('xiebo_err')
-        self.xiebo_suc=self.data['xiebo'].get('xiebo_suc')
-        self.driver.get(self.xiebo_url)
-    def xiugai(self,suc,biaoti,neirong,fenlei,biaoqian):
-        try:
-            pass
-        except Exception as e:
-            print(e)
+            self.logs.error_log('用例执行失败，原因：%s' % e)
         finally:
             self.driver.quit()
