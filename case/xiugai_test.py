@@ -12,7 +12,7 @@ casedata=huoqu_test(case_path,3)
 class Test_xiugai(unittest.TestCase):
     def setUp(self):
         self.logs = log.log_message()
-        self.derve=webdriver.Chrome()
+        self.derve=webdriver.Fi()
         self.xiugai_fun=Xiugai_tes(self.derve)
     @ddt.data(*casedata)
     def test_xiugai_1(self,casedata):

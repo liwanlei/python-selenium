@@ -1,7 +1,8 @@
 import  unittest,time,os
-from util import HTMLTestRunner
+from util import BSTestRunner
+from config import description,reporttitle
 path=os.getcwd()
-case_path=path+'\\testcase'
+case_path=path+'\\case'
 def create_report():
     test_suit = unittest.TestSuite()
     discover = unittest.defaultTestLoader.discover(case_path, pattern='*test.py', top_level_dir=None)
@@ -11,5 +12,5 @@ def create_report():
     now=time.strftime('%Y-%m-%d_%H_%M',time.localtime(time.time()))
     report_dir=path+'\\report\\%s.html'%now
     re_open= open(report_dir,'wb')
-    runner=HTMLTestRunner.HTMLTestRunner(stream=re_open,title='博客测试',description=u'测试结果')
+    runner=BSTestRunner.BSTestRunner(stream=re_open,title=reporttitle,description=description)
     runner.run(test_suit)

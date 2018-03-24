@@ -3,9 +3,9 @@ path=os.getcwd()
 class log_message():
 	def __init__(self):
 		title = u'注册测试'
-		day = time.strftime("%Y%m%d%H%M", time.localtime(time.time()))
+		day = time.strftime("%Y%m%d%H", time.localtime(time.time()))
 		pad = os.getcwd()
-		file_dir = pad + '\\testlog'
+		file_dir = pad + '\\logco'
 		file = os.path.join(file_dir, (day + '.log'))
 		self.logger = logging.Logger(title)
 		self.logger.setLevel(logging.INFO)

@@ -4,8 +4,7 @@ from util import log
 class Login_tes:#登录模块封装
     def __init__(self,driver):#
         self.driber=driver
-        title='登录模块'
-        self.logs = log.log_message(title)
+        self.logs = log.log_message()
         self.file=open(path+"\\data\\page_data.yaml", "r",encoding= "utf-8")
         self.data=yaml.load(self.file)
         self.file.close()
@@ -38,7 +37,7 @@ class Zhuce_tes:#注册模块的封装
     def __init__(self,driver):
         self.deriver=driver
         title = '注册模块'
-        self.logs = log.log_message(title)
+        self.logs = log.log_message()
         self.file1=open(path+"\\data\\page_data.yaml", "r",encoding= "utf-8")
         self.data=yaml.load(self.file1)
         self.file1.close()
@@ -80,14 +79,12 @@ class Zhuce_tes:#注册模块的封装
 class Zaohui_tes:
     def __init__(self,driver):
         self.driver=driver
-        title = '找回模块'
-        self.logs = log.log_message(title)
+        self.logs = log.log_message()
         self.file1=open(path+"\\data\\page_data.yaml", "r",encoding= "utf-8")
         self.data=yaml.load(self.file1)
         self.file1.close()
         self.zhao_url=self.data['zhaohui'].get('url')
         self.zhao_username=self.data['zhaohui'].get('username')
-
         self.zhao_btn=self.data['zhaohui'].get('zhaohui_btn')
         self.zhao_err=self.data['zhaohui'].get('zhaohui_err')
         self.zhao_suc=self.data['zhaohui'].get('zhaohui_suc')
@@ -112,8 +109,7 @@ class Zaohui_tes:
 class Rest_tes:
     def __init__(self,driver):
         self.driver=driver
-        title = '重置模块'
-        self.logs = log.log_message(title)
+        self.logs = log.log_message()
         self.file1=open(path+"\\data\\page_data.yaml", "r",encoding= "utf-8")
         self.data=yaml.load(self.file1)
         self.file1.close()
@@ -150,7 +146,7 @@ class Rest_tes:
 class Xiugai_tes:
     def __init__(self,driver):
         title = '修改模块'
-        self.logs = log.log_message(title)
+        self.logs = log.log_message()
         self.driver=driver
         self.file1=open(path+"\\data\\page_data.yaml", "r",encoding= "utf-8")
         self.data=yaml.load(self.file1)
