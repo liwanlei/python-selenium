@@ -10,3 +10,4 @@
 ###  suite  测试用例集
 ### util 公共模块
 ###   run.py  执行脚本。
+![Alt text](https://github.com/liwanlei/FXTest/blob/master/image/wx.jpeg)
